@@ -18,7 +18,7 @@ function displayResults(responseJson, maxResults) {
     }
     $('.results').removeClass('hidden');
 }
-
+ 
 function getParks(baseUrl, stateArr, maxResults, apiKey) {
    
     const params = {
